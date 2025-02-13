@@ -1,0 +1,14 @@
+# Virtual environment
+venv/
+
+# Environment variables
+.env
+
+# FAISS index files
+faiss_index/
+
+# Compiled Python files
+__pycache__/
+
+# User-uploaded PDFs
+*.pdf

@@ -1,0 +1,4 @@
+First of all activate the environment by writing in terminal:-
+conda activate venv/
+
+Then install all the libraries from req.txt
