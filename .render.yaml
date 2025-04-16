@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: chat-with-pdf
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run app.py 
+    envVars:
+      - key: GOOGLE_API_KEY
+        value: AIzaSyD5ta6E_v0SIqkXmn9tAlFUiZ0bhdrPKoQ
